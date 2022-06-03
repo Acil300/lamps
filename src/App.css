@@ -1,0 +1,48 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.App {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aqua;
+}
+.individual-lamp{
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.global-lamps{
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.lamp-and-btn{
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  gap: 10px;
+}
+.lamp{
+  width: 200px;
+  aspect-ratio: 1;
+  border-radius:50%;
+  -webkit-border-radius:50%;
+  -moz-border-radius:50%;
+  -ms-border-radius:50%;
+  -o-border-radius:50%;
+}
+.off{
+  background-color:gray;
+}
+.on{
+  background-color: yellow;
+}
+.lamp-btn{
+  font-size: 25px;
+}
